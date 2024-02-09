@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
 		<WasmEnableSIMD>false</WasmEnableSIMD>
 		<WasmEnableExceptionHandling>false</WasmEnableExceptionHandling>
+		<BlazorWebAssemblyRuntimeOptions>--no-jiterpreter-simd-enabled --no-jiterpreter-wasm-eh-enabled</BlazorWebAssemblyRuntimeOptions>
   </PropertyGroup>
 
   <ItemGroup>
